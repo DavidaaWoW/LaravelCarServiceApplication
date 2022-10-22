@@ -1,5 +1,11 @@
 # Базы данных и всё, что с ними едят
 
+Подключение к базам данных задаётся в конфигурационном файле [database.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/config/database.php), а также в файле .env
+
+В файле database.php задаётся БД по умолчанию (default), а также вводятся данные для подключения к каждой из необходимых БД, и отдельно для Redis
+
+**Важно, что вместо localhost, в качестве хоста нужно указывать название контейнера**
+
 ## [Миграции](https://laravel.com/docs/9.x/migrations)
 
 В папке [migrations](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/database/migrations) создаются миграции всех таблиц будущей базы данных. 
