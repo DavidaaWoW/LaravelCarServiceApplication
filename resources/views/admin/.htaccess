@@ -1,0 +1,5 @@
+RewriteEngine on
+AuthName "Restricted access"
+AuthType Basic
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
