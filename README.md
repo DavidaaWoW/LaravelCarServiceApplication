@@ -10,10 +10,10 @@
 В проекте были использованы основные возможности экосистемы Laravel. В частности:
 
 - [Шаблонизатор Blade](https://laravel.com/docs/9.x/blade)
-- [Eloquent ORM] (https://laravel.com/docs/9.x/eloquent)
-- [Artisan console] (https://laravel.com/docs/9.x/artisan#main-content)
+- [Eloquent ORM](https://laravel.com/docs/9.x/eloquent)
+- [Artisan console](https://laravel.com/docs/9.x/artisan#main-content)
 
-Изначально, весь функционал был написан на "чистом" php, [в процедурном стиле] (https://github.com/DavidaaWoW/mirea_5sem_RSCHIR/tree/master/5ПР)
+Изначально, весь функционал был написан на "чистом" php, [в процедурном стиле](https://github.com/DavidaaWoW/mirea_5sem_RSCHIR/tree/master/5ПР)
 После чего, была произведена успешная миграция на фреймворк Laravel, с сохранением всего функционала, **и возможностью его расширения**
 
 ## Документация
