@@ -29,6 +29,7 @@
 + [Пути(Routing)](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/routes)
 + [View. Шаблоны Blade](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views)
 + [Локализация](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/lang)
++ [Глобальные темы пользователей](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/public/themes)
 
 
 ## Авторские права
