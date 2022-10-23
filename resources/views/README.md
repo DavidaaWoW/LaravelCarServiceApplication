@@ -12,7 +12,7 @@ Blade предлагает универсальное решение. Созда
 
 - В файле [app.blade.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/resources/views/layouts/app.blade.php) объявляем стандартную HTML разметку, подключаем все завиимости, а внутри главного элемента контейнера прописываем директиву ```@yield('navbar')```, которая означает, что в данный шаблон возможно встраивание другого контента, по ключу ```navbar```.
 
-- Далее, создаём файл [navbar.blade.php](LaravelCarServiceApplication/navbar.blade.php at main · DavidaaWoW/LaravelCarServiceApplication), прописываем директиву ```@extends('layouts.app')```, которая по сути, просто переносит весь контент из предыдущего файла, одной строчкой. Далее, обявляем встраивание контента в указанную секцию navbar: ```@section('navbar')```. В конце, также открываем шаблон для встраивания остального контента: ```@yield('content')```. Закрываем секцию ```@endsection```.
+- Далее, создаём файл [navbar.blade.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/resources/views/layouts/navbar.blade.php), прописываем директиву ```@extends('layouts.app')```, которая по сути, просто переносит весь контент из предыдущего файла, одной строчкой. Далее, обявляем встраивание контента в указанную секцию navbar: ```@section('navbar')```. В конце, также открываем шаблон для встраивания остального контента: ```@yield('content')```. Закрываем секцию ```@endsection```.
 
 Интернет ресурс был написан с помощью библиотеки [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/).
 
