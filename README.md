@@ -30,7 +30,7 @@
 + [View. Шаблоны Blade](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views)
 + [Локализация](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/lang)
 + [Глобальные темы пользователей](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/public/themes)
-
++ [Администрирование интернет-ресурса](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views/admin)
 
 ## Авторские права
 
