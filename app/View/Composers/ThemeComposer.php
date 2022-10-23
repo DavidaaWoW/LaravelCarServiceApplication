@@ -20,13 +20,13 @@ class ThemeComposer
             $json = json_decode(Redis::get(auth()->user()->id));
             switch ($json->theme) {
                 case 'light':
-                    View::share('_style', 'light.css');
+                    $view->with('_style', 'light.css');
                     break;
                 case 'dark':
-                    View::share('_style', 'dark.css');
+                    $view->with('_style', 'dark.css');
                     break;
                 default:
-                    View::share('_style', 'light.css');
+                    $view->with('_style', 'light.css');
                     break;
             }
         }
