@@ -28,6 +28,7 @@
 + [Контроллеры](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/app/Http/Controllers)
 + [Пути(Routing)](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/routes)
 + [View. Шаблоны Blade](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views)
++ [Локализация](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/lang)
 
 
 ## Авторские права
