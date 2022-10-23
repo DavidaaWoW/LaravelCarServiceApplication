@@ -12,7 +12,7 @@ Blade предлагает универсальное решение. Созда
 
 - В файле [app.blade.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/resources/views/layouts/app.blade.php) объявляем стандартную HTML разметку, подключаем все завиимости, а внутри главного элемента контейнера прописываем директиву ```@yield('navbar')```, которая означает, что в данный шаблон возможно встраивание другого контента, по ключу ```navbar```.
 
-- Далее, создаём файл [navbar.blade.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/resources/views/layouts/navbar.blade.php), прописываем директиву ```@extends('layouts.app')```, которая по сути, просто переносит весь контент из предыдущего файла, одной строчкой. Далее, обявляем встраивание контента в указанную секцию navbar: ```@section('navbar')```. В конце, также открываем шаблон для встраивания остального контента: ```@yield('content')```. Закрываем секцию ```@endsection```.
+- Далее, создаём файл [navbar.blade.php](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/resources/views/layouts/navbar.blade.php), прописываем директиву ```@extends('layouts.app')```, которая по сути, просто переносит весь контент из предыдущего файла, одной строчкой. Далее, объявляем встраивание контента в указанную секцию navbar: ```@section('navbar')```. В конце, также открываем шаблон для встраивания остального контента: ```@yield('content')```. Закрываем секцию ```@endsection```.
 
 Интернет ресурс был написан с помощью библиотеки [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/).
 
@@ -36,7 +36,7 @@ Blade предлагает универсальное решение. Созда
 
 - Обработка ошибок
 
-В Blade существует директива ```@error```, которая позволяет отображать ошибки, если страница была вызвана из контроллера с методом ```withErrors```, внутри директивы прописывается ошибка, доступ к содержанию которой появляется по полю ```>{{ $message }}```. Директиву необходимо закрыть: ```@enderror```
+В Blade существует директива ```@error```, которая позволяет отображать ошибки, если страница была вызвана из контроллера с методом ```withErrors```, внутри директивы прописывается ошибка, доступ к содержанию которой появляется по полю ```{{ $message }}```. Директиву необходимо закрыть: ```@enderror```
 
 ## Профиль
 
@@ -48,7 +48,8 @@ Blade предлагает универсальное решение. Созда
 
 ...
 
-@endsection```
+@endsection
+```
 
 В блоке ```licence```, внутрь подаётся переменная ```{{ $licenceBlock }}```. Она отвечает за то, чтобы блок показывался лишь в том случае, если у пользователя загружены в систему права. Передаётся переменная в [AppServiceProvider](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/app/Providers/AppServiceProvider.php).
 
