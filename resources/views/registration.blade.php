@@ -27,7 +27,7 @@
             <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
-        <button type="submit" class="btn btn-primary" style="margin-right: 4em;" onclick="register()">Регистрация</button> <a href="{{ route('user.login') }}">Вход</a>
+        <button type="submit" class="btn btn-primary" style="margin-right: 4em;">Регистрация</button> <a href="{{ route('user.login') }}">Вход</a>
     </form>
 </body>
 
