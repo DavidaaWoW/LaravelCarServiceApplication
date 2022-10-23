@@ -26,6 +26,7 @@
 + [Работа с БД](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/database)
 + [Модели](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/app/Models)
 + [Контроллеры](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/app/Http/Controllers)
++ [Пути(Routing)](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/routes)
 
 
 ## Авторские права
